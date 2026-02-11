@@ -13,7 +13,7 @@ We introduce a method to watermark and attribute LLM-generated text by leveragin
 <img src="architecture.png" alt="Figure 1: Overview of the steering and retrieval mechanism"  style="display: block; 
            margin-left: auto;
            margin-right: auto;
-           width: 80%;"/>
+           width: 50%;"/>
 
 *Figure 1: (a) Steering the model during generation with a sparse vector. (b) Retrieving the signature from activations during a forward pass.*
 
@@ -73,7 +73,8 @@ Apply sparse random steering vectors to watermark generation. This module handle
            margin-left: auto;
            margin-right: auto;
            width: 80%;"/>
-Figure 2: Robustness of our method to paraphrasing compared to the KGW classical watermark.
+
+*Figure 2: Robustness of our method to paraphrasing compared to the KGW classical watermark.*
 
 ## 📊 Datasets
 The project utilizes three main datasets to evaluate robustness across entropy regimes.
