@@ -5,7 +5,7 @@
 
 
 
-hf_token: "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" #The new token #"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" #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
+hf_token: "" #The new token
 verbose: True
 run_name: "multi_pipe" #"sparcity_tradeoff_v1"
 
