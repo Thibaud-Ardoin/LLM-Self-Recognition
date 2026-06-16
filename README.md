@@ -6,7 +6,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C.svg)]()
 
 
-This repository contains the official implementation of the paper **"LLM Self-Recognition: Steering and Retrieving Activation Signatures"** (In review at ICML 2026). 
+This repository contains the official implementation of the paper [**"LLM Self-Recognition: Steering and Retrieving Activation Signatures"**](https://arxiv.org/abs/2606.06315) (ICML 2026). 
 
 We introduce a method to watermark and attribute LLM-generated text by leveraging the model's internal "self-recognition" capabilities. By steering the residual stream with sparse, random vectors during generation, we embed a detectable fingerprint that can be retrieved directly from the model's activations—without modifying the output distribution's vocabulary or degrading generation quality.
 
@@ -102,12 +102,13 @@ Quality Preservation: Minimal impact on perplexity and DeBERTa quality metrics c
 If you use this code or findings in your research, please cite our paper:
 
 ```
-@inproceedings{anonymous2026selfrecognition,
-  title={LLM Self-Recognition: Steering and Retrieving Activation Signatures},
-  author={Anonymous Authors},
-  booktitle={},
-  year={},
-  url={}
+@inproceedings{ardoin2026llmselfrec,
+  title     = {{LLM Self-Recognition: Steering and Retrieving Activation Signatures}},
+  author    = {Ardoin, Thibaud and Sch{\"a}fer, Jonas and Wunder, Gerhard},
+  booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
+  series    = {Proceedings of Machine Learning Research},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2606.06315}
 }
 ```
 
